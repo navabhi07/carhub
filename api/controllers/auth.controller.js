@@ -19,7 +19,7 @@ export const signup = async (req, res,next) => {
   }
 };
 
-console.log("JWT_SECRET:", process.env.JWT_SECRET);
+
 export const signin = async (req, res, next) => {
     const { email, password } = req.body;
     try {
